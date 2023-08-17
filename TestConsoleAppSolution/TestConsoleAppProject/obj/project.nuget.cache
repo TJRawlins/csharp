@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zDWwhqFU6CFdy5v8yuOLy9femgJOu5V3LLNO6iGgerUWpSdWWA7YRRQ1HoqEB99lkJaIqsZsmTiPvfKvYBKuCw==",
+  "success": true,
+  "projectFilePath": "C:\\repos\\csharp\\TestConsoleAppSolution\\TestConsoleAppProject\\TestConsoleAppProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\antho\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

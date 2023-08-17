@@ -1,0 +1,14 @@
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\obj\Debug\net7.0\SumOfIntegersProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\obj\Debug\net7.0\SumOfIntegersProject.AssemblyInfoInputs.cache
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\obj\Debug\net7.0\SumOfIntegersProject.AssemblyInfo.cs
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\obj\Debug\net7.0\SumOfIntegersProject.csproj.CoreCompileInputs.cache
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\bin\Debug\net7.0\SumOfIntegersProject.exe
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\bin\Debug\net7.0\SumOfIntegersProject.deps.json
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\bin\Debug\net7.0\SumOfIntegersProject.runtimeconfig.json
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\bin\Debug\net7.0\SumOfIntegersProject.dll
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\bin\Debug\net7.0\SumOfIntegersProject.pdb
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\obj\Debug\net7.0\SumOfIntegersProject.dll
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\obj\Debug\net7.0\refint\SumOfIntegersProject.dll
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\obj\Debug\net7.0\SumOfIntegersProject.pdb
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\obj\Debug\net7.0\SumOfIntegersProject.genruntimeconfig.cache
+C:\repos\csharp\SumOfIntegersSolution\SumOfIntegersProject\obj\Debug\net7.0\ref\SumOfIntegersProject.dll
