@@ -27,3 +27,36 @@ Console.WriteLine($"The sum3 of nbrs is {sum3}");
 // Integer divided by decimal will always result in an integer. Must cast or make it an decimal /double
 double avg = sum / (nbrs.Length + .0);
 Console.WriteLine($"The avg is {avg}");
+
+
+// same as above but only odd numbers
+int oddSum = 0;
+var count = 0.0;
+
+for (int i = 0; i < nbrs.Length; i++)
+{
+    if (nbrs[i] % 2 == 1)
+    {
+        oddSum += (nbrs[i] * nbrs[i]) ;
+        count++;
+    }
+}
+
+Console.WriteLine($"The sum of odd nbrs is {oddSum}");
+Console.WriteLine($"The avg is {oddSum / count}");
+
+
+
+// count num 1 through 50, divisible by 5 or divisible by 7, else skip. Get sum
+
+int sumTotal = 0;
+
+for (int i = 0; i <= 50; i++)
+{
+    if (i % 5 == 0 || i % 7 == 0)
+    {
+        sumTotal += i;
+    }
+}
+
+Console.WriteLine($"The sum of divisible numbers is {sumTotal}");
