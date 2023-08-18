@@ -1,0 +1,14 @@
+C:\repos\csharp\ForeachSolution\ForeachProject\bin\Debug\net7.0\LoopsProject.exe
+C:\repos\csharp\ForeachSolution\ForeachProject\bin\Debug\net7.0\LoopsProject.deps.json
+C:\repos\csharp\ForeachSolution\ForeachProject\bin\Debug\net7.0\LoopsProject.runtimeconfig.json
+C:\repos\csharp\ForeachSolution\ForeachProject\bin\Debug\net7.0\LoopsProject.dll
+C:\repos\csharp\ForeachSolution\ForeachProject\bin\Debug\net7.0\LoopsProject.pdb
+C:\repos\csharp\ForeachSolution\ForeachProject\obj\Debug\net7.0\LoopsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\ForeachSolution\ForeachProject\obj\Debug\net7.0\LoopsProject.AssemblyInfoInputs.cache
+C:\repos\csharp\ForeachSolution\ForeachProject\obj\Debug\net7.0\LoopsProject.AssemblyInfo.cs
+C:\repos\csharp\ForeachSolution\ForeachProject\obj\Debug\net7.0\LoopsProject.csproj.CoreCompileInputs.cache
+C:\repos\csharp\ForeachSolution\ForeachProject\obj\Debug\net7.0\LoopsProject.dll
+C:\repos\csharp\ForeachSolution\ForeachProject\obj\Debug\net7.0\refint\LoopsProject.dll
+C:\repos\csharp\ForeachSolution\ForeachProject\obj\Debug\net7.0\LoopsProject.pdb
+C:\repos\csharp\ForeachSolution\ForeachProject\obj\Debug\net7.0\LoopsProject.genruntimeconfig.cache
+C:\repos\csharp\ForeachSolution\ForeachProject\obj\Debug\net7.0\ref\LoopsProject.dll
