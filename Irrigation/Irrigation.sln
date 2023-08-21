@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsClassesProject", "ForeachProject\LoopsClassesProject.csproj", "{C31D7C16-888B-47F2-B613-5E27393F82D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Irrigation", "Irrigation\Irrigation.csproj", "{1571E498-8AA2-476D-A94D-CFF4D09DF365}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C31D7C16-888B-47F2-B613-5E27393F82D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C31D7C16-888B-47F2-B613-5E27393F82D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C31D7C16-888B-47F2-B613-5E27393F82D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C31D7C16-888B-47F2-B613-5E27393F82D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1571E498-8AA2-476D-A94D-CFF4D09DF365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1571E498-8AA2-476D-A94D-CFF4D09DF365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1571E498-8AA2-476D-A94D-CFF4D09DF365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1571E498-8AA2-476D-A94D-CFF4D09DF365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0B603930-4BCE-48D1-8A9F-AF3323C22C6C}
+		SolutionGuid = {A21915A0-E09A-4D62-BCB5-2EBDA9ED1CEF}
 	EndGlobalSection
 EndGlobal

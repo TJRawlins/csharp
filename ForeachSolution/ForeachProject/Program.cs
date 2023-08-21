@@ -144,6 +144,16 @@ for (int i = 0; i <= 30; i++)
 }
 */
 
+// ---> TRYPARSE
+/*
+string testString = "123";
+int num;
+
+int.TryParse(testString, out num);
+Console.WriteLine($"{num} is a {num.GetType()}");
+*/
+
+
 // Construct new instance of class object (constructor)
 var megan = new Student("Megan");
 

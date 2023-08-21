@@ -1,0 +1,14 @@
+C:\repos\csharp\GeometricShapes\GeometricShapes\bin\Debug\net7.0\GeometricShapes.exe
+C:\repos\csharp\GeometricShapes\GeometricShapes\bin\Debug\net7.0\GeometricShapes.deps.json
+C:\repos\csharp\GeometricShapes\GeometricShapes\bin\Debug\net7.0\GeometricShapes.runtimeconfig.json
+C:\repos\csharp\GeometricShapes\GeometricShapes\bin\Debug\net7.0\GeometricShapes.dll
+C:\repos\csharp\GeometricShapes\GeometricShapes\bin\Debug\net7.0\GeometricShapes.pdb
+C:\repos\csharp\GeometricShapes\GeometricShapes\obj\Debug\net7.0\GeometricShapes.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\GeometricShapes\GeometricShapes\obj\Debug\net7.0\GeometricShapes.AssemblyInfoInputs.cache
+C:\repos\csharp\GeometricShapes\GeometricShapes\obj\Debug\net7.0\GeometricShapes.AssemblyInfo.cs
+C:\repos\csharp\GeometricShapes\GeometricShapes\obj\Debug\net7.0\GeometricShapes.csproj.CoreCompileInputs.cache
+C:\repos\csharp\GeometricShapes\GeometricShapes\obj\Debug\net7.0\GeometricShapes.dll
+C:\repos\csharp\GeometricShapes\GeometricShapes\obj\Debug\net7.0\refint\GeometricShapes.dll
+C:\repos\csharp\GeometricShapes\GeometricShapes\obj\Debug\net7.0\GeometricShapes.pdb
+C:\repos\csharp\GeometricShapes\GeometricShapes\obj\Debug\net7.0\GeometricShapes.genruntimeconfig.cache
+C:\repos\csharp\GeometricShapes\GeometricShapes\obj\Debug\net7.0\ref\GeometricShapes.dll

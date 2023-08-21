@@ -1,0 +1,14 @@
+C:\repos\csharp\Irrigation\Irrigation\bin\Debug\net7.0\Irrigation.exe
+C:\repos\csharp\Irrigation\Irrigation\bin\Debug\net7.0\Irrigation.deps.json
+C:\repos\csharp\Irrigation\Irrigation\bin\Debug\net7.0\Irrigation.runtimeconfig.json
+C:\repos\csharp\Irrigation\Irrigation\bin\Debug\net7.0\Irrigation.dll
+C:\repos\csharp\Irrigation\Irrigation\bin\Debug\net7.0\Irrigation.pdb
+C:\repos\csharp\Irrigation\Irrigation\obj\Debug\net7.0\Irrigation.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\Irrigation\Irrigation\obj\Debug\net7.0\Irrigation.AssemblyInfoInputs.cache
+C:\repos\csharp\Irrigation\Irrigation\obj\Debug\net7.0\Irrigation.AssemblyInfo.cs
+C:\repos\csharp\Irrigation\Irrigation\obj\Debug\net7.0\Irrigation.csproj.CoreCompileInputs.cache
+C:\repos\csharp\Irrigation\Irrigation\obj\Debug\net7.0\Irrigation.dll
+C:\repos\csharp\Irrigation\Irrigation\obj\Debug\net7.0\refint\Irrigation.dll
+C:\repos\csharp\Irrigation\Irrigation\obj\Debug\net7.0\Irrigation.pdb
+C:\repos\csharp\Irrigation\Irrigation\obj\Debug\net7.0\Irrigation.genruntimeconfig.cache
+C:\repos\csharp\Irrigation\Irrigation\obj\Debug\net7.0\ref\Irrigation.dll
