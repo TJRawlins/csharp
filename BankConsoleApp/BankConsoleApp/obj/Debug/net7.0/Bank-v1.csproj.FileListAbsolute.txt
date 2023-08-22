@@ -1,0 +1,14 @@
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\bin\Debug\net7.0\Bank-v1.exe
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\bin\Debug\net7.0\Bank-v1.deps.json
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\bin\Debug\net7.0\Bank-v1.runtimeconfig.json
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\bin\Debug\net7.0\Bank-v1.dll
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\bin\Debug\net7.0\Bank-v1.pdb
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\obj\Debug\net7.0\Bank-v1.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\obj\Debug\net7.0\Bank-v1.AssemblyInfoInputs.cache
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\obj\Debug\net7.0\Bank-v1.AssemblyInfo.cs
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\obj\Debug\net7.0\Bank-v1.csproj.CoreCompileInputs.cache
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\obj\Debug\net7.0\Bank-v1.dll
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\obj\Debug\net7.0\refint\Bank-v1.dll
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\obj\Debug\net7.0\Bank-v1.pdb
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\obj\Debug\net7.0\Bank-v1.genruntimeconfig.cache
+C:\repos\csharp\BankConsoleApp\BankConsoleApp\obj\Debug\net7.0\ref\Bank-v1.dll

@@ -1,0 +1,14 @@
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\obj\Debug\net7.0\OOGeometricShapes.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\obj\Debug\net7.0\OOGeometricShapes.AssemblyInfoInputs.cache
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\obj\Debug\net7.0\OOGeometricShapes.AssemblyInfo.cs
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\obj\Debug\net7.0\OOGeometricShapes.csproj.CoreCompileInputs.cache
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\bin\Debug\net7.0\OOGeometricShapes.exe
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\bin\Debug\net7.0\OOGeometricShapes.deps.json
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\bin\Debug\net7.0\OOGeometricShapes.runtimeconfig.json
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\bin\Debug\net7.0\OOGeometricShapes.dll
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\bin\Debug\net7.0\OOGeometricShapes.pdb
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\obj\Debug\net7.0\OOGeometricShapes.dll
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\obj\Debug\net7.0\refint\OOGeometricShapes.dll
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\obj\Debug\net7.0\OOGeometricShapes.pdb
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\obj\Debug\net7.0\OOGeometricShapes.genruntimeconfig.cache
+C:\repos\csharp\OOGeometricShapes\OOGeometricShapes\obj\Debug\net7.0\ref\OOGeometricShapes.dll

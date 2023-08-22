@@ -1,0 +1,14 @@
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\bin\Debug\net7.0\ExceptionExamples.exe
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\bin\Debug\net7.0\ExceptionExamples.deps.json
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\bin\Debug\net7.0\ExceptionExamples.runtimeconfig.json
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\bin\Debug\net7.0\ExceptionExamples.dll
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\bin\Debug\net7.0\ExceptionExamples.pdb
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\obj\Debug\net7.0\ExceptionExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\obj\Debug\net7.0\ExceptionExamples.AssemblyInfoInputs.cache
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\obj\Debug\net7.0\ExceptionExamples.AssemblyInfo.cs
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\obj\Debug\net7.0\ExceptionExamples.csproj.CoreCompileInputs.cache
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\obj\Debug\net7.0\ExceptionExamples.dll
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\obj\Debug\net7.0\refint\ExceptionExamples.dll
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\obj\Debug\net7.0\ExceptionExamples.pdb
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\obj\Debug\net7.0\ExceptionExamples.genruntimeconfig.cache
+C:\repos\csharp\ExceptionExamples\ExceptionExamples\obj\Debug\net7.0\ref\ExceptionExamples.dll

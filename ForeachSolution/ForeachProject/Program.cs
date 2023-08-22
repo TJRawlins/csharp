@@ -137,7 +137,7 @@ for (int i = 0; i <= 30; i++)
         Console.WriteLine($"{i} BUZZ");
         continue;
     } else if (i % 3 == 0)
-    {
+    { 
         Console.WriteLine($"{i} FIZZ");
         continue;
     }

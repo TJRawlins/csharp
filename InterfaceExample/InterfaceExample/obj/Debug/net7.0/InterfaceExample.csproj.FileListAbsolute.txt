@@ -1,0 +1,14 @@
+C:\repos\csharp\InterfaceExample\InterfaceExample\bin\Debug\net7.0\InterfaceExample.exe
+C:\repos\csharp\InterfaceExample\InterfaceExample\bin\Debug\net7.0\InterfaceExample.deps.json
+C:\repos\csharp\InterfaceExample\InterfaceExample\bin\Debug\net7.0\InterfaceExample.runtimeconfig.json
+C:\repos\csharp\InterfaceExample\InterfaceExample\bin\Debug\net7.0\InterfaceExample.dll
+C:\repos\csharp\InterfaceExample\InterfaceExample\bin\Debug\net7.0\InterfaceExample.pdb
+C:\repos\csharp\InterfaceExample\InterfaceExample\obj\Debug\net7.0\InterfaceExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\InterfaceExample\InterfaceExample\obj\Debug\net7.0\InterfaceExample.AssemblyInfoInputs.cache
+C:\repos\csharp\InterfaceExample\InterfaceExample\obj\Debug\net7.0\InterfaceExample.AssemblyInfo.cs
+C:\repos\csharp\InterfaceExample\InterfaceExample\obj\Debug\net7.0\InterfaceExample.csproj.CoreCompileInputs.cache
+C:\repos\csharp\InterfaceExample\InterfaceExample\obj\Debug\net7.0\InterfaceExample.dll
+C:\repos\csharp\InterfaceExample\InterfaceExample\obj\Debug\net7.0\refint\InterfaceExample.dll
+C:\repos\csharp\InterfaceExample\InterfaceExample\obj\Debug\net7.0\InterfaceExample.pdb
+C:\repos\csharp\InterfaceExample\InterfaceExample\obj\Debug\net7.0\InterfaceExample.genruntimeconfig.cache
+C:\repos\csharp\InterfaceExample\InterfaceExample\obj\Debug\net7.0\ref\InterfaceExample.dll

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace GeometricShapes
 {
-    internal class Square
+    internal class Square : Rectangle
     {
-        public int Side1 { get; set; }
-        public int Side2 { get; set; }
+        // passes one side param and use that one param as the 2 base params
+        public Square(int s1) : base(s1,s1)
+        {
 
-        public int Perimeter() { return Side1 + Side2; }
+        }
 
-        public int Area() {  return Side1 * Side2; }
     }
 }
