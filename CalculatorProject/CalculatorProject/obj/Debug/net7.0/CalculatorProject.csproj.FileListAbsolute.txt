@@ -1,0 +1,14 @@
+C:\repos\csharp\CalculatorProject\CalculatorProject\bin\Debug\net7.0\CalculatorProject.exe
+C:\repos\csharp\CalculatorProject\CalculatorProject\bin\Debug\net7.0\CalculatorProject.deps.json
+C:\repos\csharp\CalculatorProject\CalculatorProject\bin\Debug\net7.0\CalculatorProject.runtimeconfig.json
+C:\repos\csharp\CalculatorProject\CalculatorProject\bin\Debug\net7.0\CalculatorProject.dll
+C:\repos\csharp\CalculatorProject\CalculatorProject\bin\Debug\net7.0\CalculatorProject.pdb
+C:\repos\csharp\CalculatorProject\CalculatorProject\obj\Debug\net7.0\CalculatorProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\CalculatorProject\CalculatorProject\obj\Debug\net7.0\CalculatorProject.AssemblyInfoInputs.cache
+C:\repos\csharp\CalculatorProject\CalculatorProject\obj\Debug\net7.0\CalculatorProject.AssemblyInfo.cs
+C:\repos\csharp\CalculatorProject\CalculatorProject\obj\Debug\net7.0\CalculatorProject.csproj.CoreCompileInputs.cache
+C:\repos\csharp\CalculatorProject\CalculatorProject\obj\Debug\net7.0\CalculatorProject.dll
+C:\repos\csharp\CalculatorProject\CalculatorProject\obj\Debug\net7.0\refint\CalculatorProject.dll
+C:\repos\csharp\CalculatorProject\CalculatorProject\obj\Debug\net7.0\CalculatorProject.pdb
+C:\repos\csharp\CalculatorProject\CalculatorProject\obj\Debug\net7.0\CalculatorProject.genruntimeconfig.cache
+C:\repos\csharp\CalculatorProject\CalculatorProject\obj\Debug\net7.0\ref\CalculatorProject.dll
