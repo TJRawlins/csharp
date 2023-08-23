@@ -1,0 +1,14 @@
+C:\repos\csharp\CollectionExample\CollectionExample\bin\Debug\net7.0\CollectionExample.exe
+C:\repos\csharp\CollectionExample\CollectionExample\bin\Debug\net7.0\CollectionExample.deps.json
+C:\repos\csharp\CollectionExample\CollectionExample\bin\Debug\net7.0\CollectionExample.runtimeconfig.json
+C:\repos\csharp\CollectionExample\CollectionExample\bin\Debug\net7.0\CollectionExample.dll
+C:\repos\csharp\CollectionExample\CollectionExample\bin\Debug\net7.0\CollectionExample.pdb
+C:\repos\csharp\CollectionExample\CollectionExample\obj\Debug\net7.0\CollectionExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\CollectionExample\CollectionExample\obj\Debug\net7.0\CollectionExample.AssemblyInfoInputs.cache
+C:\repos\csharp\CollectionExample\CollectionExample\obj\Debug\net7.0\CollectionExample.AssemblyInfo.cs
+C:\repos\csharp\CollectionExample\CollectionExample\obj\Debug\net7.0\CollectionExample.csproj.CoreCompileInputs.cache
+C:\repos\csharp\CollectionExample\CollectionExample\obj\Debug\net7.0\CollectionExample.dll
+C:\repos\csharp\CollectionExample\CollectionExample\obj\Debug\net7.0\refint\CollectionExample.dll
+C:\repos\csharp\CollectionExample\CollectionExample\obj\Debug\net7.0\CollectionExample.pdb
+C:\repos\csharp\CollectionExample\CollectionExample\obj\Debug\net7.0\CollectionExample.genruntimeconfig.cache
+C:\repos\csharp\CollectionExample\CollectionExample\obj\Debug\net7.0\ref\CollectionExample.dll
