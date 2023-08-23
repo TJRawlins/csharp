@@ -1,0 +1,11 @@
+C:\repos\csharp\LibraryExample\ConsoleLibrary\bin\Debug\net7.0\ConsoleLibrary.deps.json
+C:\repos\csharp\LibraryExample\ConsoleLibrary\bin\Debug\net7.0\ConsoleLibrary.dll
+C:\repos\csharp\LibraryExample\ConsoleLibrary\bin\Debug\net7.0\ConsoleLibrary.pdb
+C:\repos\csharp\LibraryExample\ConsoleLibrary\obj\Debug\net7.0\ConsoleLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\LibraryExample\ConsoleLibrary\obj\Debug\net7.0\ConsoleLibrary.AssemblyInfoInputs.cache
+C:\repos\csharp\LibraryExample\ConsoleLibrary\obj\Debug\net7.0\ConsoleLibrary.AssemblyInfo.cs
+C:\repos\csharp\LibraryExample\ConsoleLibrary\obj\Debug\net7.0\ConsoleLibrary.csproj.CoreCompileInputs.cache
+C:\repos\csharp\LibraryExample\ConsoleLibrary\obj\Debug\net7.0\ConsoleLibrary.dll
+C:\repos\csharp\LibraryExample\ConsoleLibrary\obj\Debug\net7.0\refint\ConsoleLibrary.dll
+C:\repos\csharp\LibraryExample\ConsoleLibrary\obj\Debug\net7.0\ConsoleLibrary.pdb
+C:\repos\csharp\LibraryExample\ConsoleLibrary\obj\Debug\net7.0\ref\ConsoleLibrary.dll
