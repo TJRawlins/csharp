@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCustomerController", "CsharpToCustomer\TestCustomerController.csproj", "{26107665-9CFC-401D-83E3-30C91AFB4B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerControllerProject", "Customer\CustomerControllerProject.csproj", "{AB12122B-2FCD-432B-8C8F-50FE28CC0CE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26107665-9CFC-401D-83E3-30C91AFB4B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26107665-9CFC-401D-83E3-30C91AFB4B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26107665-9CFC-401D-83E3-30C91AFB4B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26107665-9CFC-401D-83E3-30C91AFB4B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB12122B-2FCD-432B-8C8F-50FE28CC0CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB12122B-2FCD-432B-8C8F-50FE28CC0CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB12122B-2FCD-432B-8C8F-50FE28CC0CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB12122B-2FCD-432B-8C8F-50FE28CC0CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D123B4A4-622D-4BFF-ABE3-9585AB68F0AD}
+	EndGlobalSection
+EndGlobal

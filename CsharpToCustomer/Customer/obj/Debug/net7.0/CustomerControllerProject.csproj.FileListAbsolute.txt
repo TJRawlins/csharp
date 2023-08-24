@@ -1,0 +1,12 @@
+C:\repos\csharp\CsharpToCustomer\Customer\bin\Debug\net7.0\CustomerControllerProject.deps.json
+C:\repos\csharp\CsharpToCustomer\Customer\bin\Debug\net7.0\CustomerControllerProject.dll
+C:\repos\csharp\CsharpToCustomer\Customer\bin\Debug\net7.0\CustomerControllerProject.pdb
+C:\repos\csharp\CsharpToCustomer\Customer\obj\Debug\net7.0\CustomerControllerProject.csproj.AssemblyReference.cache
+C:\repos\csharp\CsharpToCustomer\Customer\obj\Debug\net7.0\CustomerControllerProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\CsharpToCustomer\Customer\obj\Debug\net7.0\CustomerControllerProject.AssemblyInfoInputs.cache
+C:\repos\csharp\CsharpToCustomer\Customer\obj\Debug\net7.0\CustomerControllerProject.AssemblyInfo.cs
+C:\repos\csharp\CsharpToCustomer\Customer\obj\Debug\net7.0\CustomerControllerProject.csproj.CoreCompileInputs.cache
+C:\repos\csharp\CsharpToCustomer\Customer\obj\Debug\net7.0\CustomerControllerProject.dll
+C:\repos\csharp\CsharpToCustomer\Customer\obj\Debug\net7.0\refint\CustomerControllerProject.dll
+C:\repos\csharp\CsharpToCustomer\Customer\obj\Debug\net7.0\CustomerControllerProject.pdb
+C:\repos\csharp\CsharpToCustomer\Customer\obj\Debug\net7.0\ref\CustomerControllerProject.dll
