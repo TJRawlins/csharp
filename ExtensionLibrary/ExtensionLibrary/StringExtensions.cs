@@ -28,6 +28,5 @@
         {
             return str.ToLower();
         }
- 
     }
 }
