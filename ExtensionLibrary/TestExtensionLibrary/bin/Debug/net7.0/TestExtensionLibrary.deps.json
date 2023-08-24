@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TestExtensionLibrary/1.0.0": {
+        "dependencies": {
+          "ExtensionLibrary": "1.0.0"
+        },
+        "runtime": {
+          "TestExtensionLibrary.dll": {}
+        }
+      },
+      "ExtensionLibrary/1.0.0": {
+        "runtime": {
+          "ExtensionLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestExtensionLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExtensionLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

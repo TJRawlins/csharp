@@ -1,0 +1,11 @@
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\bin\Debug\net7.0\ExtensionLibrary.deps.json
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\bin\Debug\net7.0\ExtensionLibrary.dll
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\bin\Debug\net7.0\ExtensionLibrary.pdb
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\obj\Debug\net7.0\ExtensionLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\obj\Debug\net7.0\ExtensionLibrary.AssemblyInfoInputs.cache
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\obj\Debug\net7.0\ExtensionLibrary.AssemblyInfo.cs
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\obj\Debug\net7.0\ExtensionLibrary.csproj.CoreCompileInputs.cache
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\obj\Debug\net7.0\ExtensionLibrary.dll
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\obj\Debug\net7.0\refint\ExtensionLibrary.dll
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\obj\Debug\net7.0\ExtensionLibrary.pdb
+C:\repos\csharp\ExtensionLibrary\ExtensionLibrary\obj\Debug\net7.0\ref\ExtensionLibrary.dll
