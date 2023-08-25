@@ -724,6 +724,19 @@
         "runtime": {
           "bin/placeholder/CustomerControllerProject.dll": {}
         }
+      },
+      "OrderControllerProject/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.1"
+        },
+        "compile": {
+          "bin/placeholder/OrderControllerProject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderControllerProject.dll": {}
+        }
       }
     }
   },
@@ -2013,11 +2026,17 @@
       "type": "project",
       "path": "../Customer/CustomerControllerProject.csproj",
       "msbuildProject": "../Customer/CustomerControllerProject.csproj"
+    },
+    "OrderControllerProject/1.0.0": {
+      "type": "project",
+      "path": "../OrdersControllerProject/OrderControllerProject.csproj",
+      "msbuildProject": "../OrdersControllerProject/OrderControllerProject.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "CustomerControllerProject >= 1.0.0"
+      "CustomerControllerProject >= 1.0.0",
+      "OrderControllerProject >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2049,6 +2068,9 @@
           "projectReferences": {
             "C:\\repos\\csharp\\CsharpToCustomer\\Customer\\CustomerControllerProject.csproj": {
               "projectPath": "C:\\repos\\csharp\\CsharpToCustomer\\Customer\\CustomerControllerProject.csproj"
+            },
+            "C:\\repos\\csharp\\CsharpToCustomer\\OrdersControllerProject\\OrderControllerProject.csproj": {
+              "projectPath": "C:\\repos\\csharp\\CsharpToCustomer\\OrdersControllerProject\\OrderControllerProject.csproj"
             }
           }
         }

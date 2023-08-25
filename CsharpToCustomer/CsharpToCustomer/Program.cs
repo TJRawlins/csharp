@@ -1,5 +1,6 @@
 ﻿
 using CustomerController;
+using OrderController;
 using Microsoft.Data.SqlClient;
 using System.Runtime.InteropServices;
 
@@ -27,7 +28,8 @@ if (conn.State != System.Data.ConnectionState.Open)
 /* ---------------------  DO STUFF ----------------------- */
 
 // CREATE INSTANCE OF CUSTOMERS CONTROLLER TO CALL METHODS ON
-var custCtrl = new CustomersController(conn);
+//var custCtrl = new CustomersController(conn);
+var orderCtrl = new OrdersController(conn);
 
 
 // INSERT CUSTOMER
@@ -83,10 +85,19 @@ foreach (var cust in customers)
 */
 
 // GET PARTIAL NAME CUSTOMERS
+/*
 List<Customer> customers = custCtrl.GetCustomerByPartialName("er");
 foreach (var cust in customers)
 {
     Console.WriteLine($"{cust}");
+}
+*/
+
+// GET ALL ORDERS
+List<Order> orders = orderCtrl.GetAllOrders();
+foreach (Order order in orders)
+{
+    Console.WriteLine(order);
 }
 
 

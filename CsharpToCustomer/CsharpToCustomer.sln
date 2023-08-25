@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCustomerController", "CsharpToCustomer\TestCustomerController.csproj", "{26107665-9CFC-401D-83E3-30C91AFB4B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCustomerController", "CsharpToCustomer\TestCustomerController.csproj", "{26107665-9CFC-401D-83E3-30C91AFB4B8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerControllerProject", "Customer\CustomerControllerProject.csproj", "{AB12122B-2FCD-432B-8C8F-50FE28CC0CE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerControllerProject", "Customer\CustomerControllerProject.csproj", "{AB12122B-2FCD-432B-8C8F-50FE28CC0CE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersControllerProject", "OrdersControllerProject\OrdersControllerProject.csproj", "{013A47E8-615A-4160-BE33-3268469DD8A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderControllerProject", "OrdersControllerProject\OrderControllerProject.csproj", "{013A47E8-615A-4160-BE33-3268469DD8A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

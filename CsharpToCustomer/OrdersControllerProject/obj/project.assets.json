@@ -2008,9 +2008,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\csharp\\CsharpToCustomer\\OrdersControllerProject\\OrdersControllerProject.csproj",
-      "projectName": "OrdersControllerProject",
-      "projectPath": "C:\\repos\\csharp\\CsharpToCustomer\\OrdersControllerProject\\OrdersControllerProject.csproj",
+      "projectUniqueName": "C:\\repos\\csharp\\CsharpToCustomer\\OrdersControllerProject\\OrderControllerProject.csproj",
+      "projectName": "OrderControllerProject",
+      "projectPath": "C:\\repos\\csharp\\CsharpToCustomer\\OrdersControllerProject\\OrderControllerProject.csproj",
       "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
       "outputPath": "C:\\repos\\csharp\\CsharpToCustomer\\OrdersControllerProject\\obj\\",
       "projectStyle": "PackageReference",

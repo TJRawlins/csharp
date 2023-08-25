@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tLPwQBTnzUIXfMd5TfcrJGkTpxCqyQpbK5mrzfBZaWCnx+M+J0znrVGfBEKZIgot+D4b8OUwkvlIA0PWGR1Bmg==",
+  "dgSpecHash": "FRSkMdAaxLJ6t60gg23z0aoApfqnE3qTGR3w4oq6tBtK4yLU0+wYrICJyyoTl9w8Tkyp+czxORBiNbybYhx4GA==",
   "success": true,
-  "projectFilePath": "C:\\repos\\csharp\\CsharpToCustomer\\OrdersControllerProject\\OrdersControllerProject.csproj",
+  "projectFilePath": "C:\\repos\\csharp\\CsharpToCustomer\\OrdersControllerProject\\OrderControllerProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\antho\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\antho\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

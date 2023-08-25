@@ -1,0 +1,12 @@
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\bin\Debug\net7.0\OrderControllerProject.deps.json
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\bin\Debug\net7.0\OrderControllerProject.dll
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\bin\Debug\net7.0\OrderControllerProject.pdb
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\obj\Debug\net7.0\OrderControllerProject.csproj.AssemblyReference.cache
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\obj\Debug\net7.0\OrderControllerProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\obj\Debug\net7.0\OrderControllerProject.AssemblyInfoInputs.cache
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\obj\Debug\net7.0\OrderControllerProject.AssemblyInfo.cs
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\obj\Debug\net7.0\OrderControllerProject.csproj.CoreCompileInputs.cache
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\obj\Debug\net7.0\OrderControllerProject.dll
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\obj\Debug\net7.0\refint\OrderControllerProject.dll
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\obj\Debug\net7.0\OrderControllerProject.pdb
+C:\repos\csharp\CsharpToCustomer\OrdersControllerProject\obj\Debug\net7.0\ref\OrderControllerProject.dll

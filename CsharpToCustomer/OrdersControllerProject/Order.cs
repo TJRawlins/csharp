@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrdersController
+namespace OrderController
 {
-    public class Orders
+    public class Order
     {
         public int Id { get; set; }
         public int CustomerId { get; set; }
-        public DateOnly Date { get; set; }
+        public DateTime Date { get; set; }
         public string Description { get; set; }
 
         public override string ToString()

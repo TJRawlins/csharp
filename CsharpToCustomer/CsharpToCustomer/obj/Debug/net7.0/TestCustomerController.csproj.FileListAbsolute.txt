@@ -50,3 +50,5 @@ C:\repos\csharp\CsharpToCustomer\CsharpToCustomer\obj\Debug\net7.0\refint\TestCu
 C:\repos\csharp\CsharpToCustomer\CsharpToCustomer\obj\Debug\net7.0\TestCustomerController.pdb
 C:\repos\csharp\CsharpToCustomer\CsharpToCustomer\obj\Debug\net7.0\TestCustomerController.genruntimeconfig.cache
 C:\repos\csharp\CsharpToCustomer\CsharpToCustomer\obj\Debug\net7.0\ref\TestCustomerController.dll
+C:\repos\csharp\CsharpToCustomer\CsharpToCustomer\bin\Debug\net7.0\OrderControllerProject.dll
+C:\repos\csharp\CsharpToCustomer\CsharpToCustomer\bin\Debug\net7.0\OrderControllerProject.pdb
