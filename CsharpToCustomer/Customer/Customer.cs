@@ -19,7 +19,7 @@ namespace CustomerController
         public override string ToString()
         {
             //redefine what ToString() does
-            return $"{Id,2:N0} | {Name, -20} | {City}, {State} | {Sales, 12:C} {Active}";
+            return $"{Id,2:N0} | {Name, -20} | {City}, {State} | {Sales, 12:C} | {Active}";
         }
     }
 
