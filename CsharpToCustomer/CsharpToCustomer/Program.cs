@@ -93,12 +93,40 @@ foreach (var cust in customers)
 }
 */
 
+// INSERT ORDER
+/*
+var newOrder = new Order()
+{
+    CustomerId = 1,
+    Date = DateTime.Now,
+    Description = "New Test Order"
+};
+orderCtrl.InsertOrder(newOrder);
+*/
+
+// UPDATE ORDER
+Order? order1 = orderCtrl.GetOrderById(28);
+order1.Description = "New Updated Order";
+orderCtrl.UpdateOrder(order1);
+order1 = orderCtrl.GetOrderById(29);
+Console.WriteLine(order1);
+
+// GET ORDER BY ID
+/*
+Order? orderById = orderCtrl.GetOrderById(28);
+Console.WriteLine($"{orderById}");
+*/
+
 // GET ALL ORDERS
+
 List<Order> orders = orderCtrl.GetAllOrders();
 foreach (Order order in orders)
 {
     Console.WriteLine(order);
 }
+
+
+
 
 
 /* ---------------------  END CONNECTION  ----------------------- */
