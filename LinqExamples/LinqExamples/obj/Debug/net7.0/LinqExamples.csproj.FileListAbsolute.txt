@@ -1,0 +1,14 @@
+C:\repos\csharp\LinqExamples\LinqExamples\bin\Debug\net7.0\LinqExamples.exe
+C:\repos\csharp\LinqExamples\LinqExamples\bin\Debug\net7.0\LinqExamples.deps.json
+C:\repos\csharp\LinqExamples\LinqExamples\bin\Debug\net7.0\LinqExamples.runtimeconfig.json
+C:\repos\csharp\LinqExamples\LinqExamples\bin\Debug\net7.0\LinqExamples.dll
+C:\repos\csharp\LinqExamples\LinqExamples\bin\Debug\net7.0\LinqExamples.pdb
+C:\repos\csharp\LinqExamples\LinqExamples\obj\Debug\net7.0\LinqExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\csharp\LinqExamples\LinqExamples\obj\Debug\net7.0\LinqExamples.AssemblyInfoInputs.cache
+C:\repos\csharp\LinqExamples\LinqExamples\obj\Debug\net7.0\LinqExamples.AssemblyInfo.cs
+C:\repos\csharp\LinqExamples\LinqExamples\obj\Debug\net7.0\LinqExamples.csproj.CoreCompileInputs.cache
+C:\repos\csharp\LinqExamples\LinqExamples\obj\Debug\net7.0\LinqExamples.dll
+C:\repos\csharp\LinqExamples\LinqExamples\obj\Debug\net7.0\refint\LinqExamples.dll
+C:\repos\csharp\LinqExamples\LinqExamples\obj\Debug\net7.0\LinqExamples.pdb
+C:\repos\csharp\LinqExamples\LinqExamples\obj\Debug\net7.0\LinqExamples.genruntimeconfig.cache
+C:\repos\csharp\LinqExamples\LinqExamples\obj\Debug\net7.0\ref\LinqExamples.dll
