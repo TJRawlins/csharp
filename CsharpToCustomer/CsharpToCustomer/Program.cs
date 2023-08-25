@@ -106,13 +106,13 @@ orderCtrl.InsertOrder(newOrder, "PG");
 */
 
 // UPDATE ORDER
-/*
+
 Order? order1 = orderCtrl.GetOrderById(25);
 order1.Description = "New Updated Order";
 orderCtrl.UpdateOrder(order1);
 order1 = orderCtrl.GetOrderById(28);
 Console.WriteLine(order1);
-*/
+
 
 
 // GET ORDER BY ID

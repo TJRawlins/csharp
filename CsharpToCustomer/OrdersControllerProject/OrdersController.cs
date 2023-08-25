@@ -86,8 +86,8 @@ namespace OrderController
         public void UpdateOrder(Order order)
         {
             var sql = "UPDATE Orders SET " +
-                " CustomerId = @CustomerId " +
-                " Date = @Date " +
+                " CustomerId = @CustomerId, " +
+                " Date = @Date, " +
                 " Description = @Description " +
                 " WHERE Id = @Id"
                 ;
