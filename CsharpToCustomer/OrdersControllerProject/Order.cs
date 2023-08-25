@@ -15,7 +15,11 @@ namespace OrderController
 
         public override string ToString()
         {
-            return $"{Id} | {CustomerId} | {Date} | {Description}"; 
+            return $"{Id,2} | {CustomerId,2} | {Date} | {Description,-30}"; 
         }
+
+        public static string SqlGetAll = "SELECT * FROM Orders ORDER BY Date;";
+        public static string SqlGetById = "SELECT * FROM Orders WHERE Id = @Id;";
+
     }
 }

@@ -97,19 +97,23 @@ foreach (var cust in customers)
 /*
 var newOrder = new Order()
 {
-    CustomerId = 1,
+    CustomerId = 0,
     Date = DateTime.Now,
-    Description = "New Test Order"
+    Description = "New Test Order for PG",
+
 };
-orderCtrl.InsertOrder(newOrder);
+orderCtrl.InsertOrder(newOrder, "PG");
 */
 
 // UPDATE ORDER
-Order? order1 = orderCtrl.GetOrderById(28);
+/*
+Order? order1 = orderCtrl.GetOrderById(25);
 order1.Description = "New Updated Order";
 orderCtrl.UpdateOrder(order1);
-order1 = orderCtrl.GetOrderById(29);
+order1 = orderCtrl.GetOrderById(28);
 Console.WriteLine(order1);
+*/
+
 
 // GET ORDER BY ID
 /*
