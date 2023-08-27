@@ -1,6 +1,17 @@
 ﻿
 using Irrigation;
 
-var Pine = new Plant("Pine Tree", 35);
+var _context = new AppDbContext();
 
-Console.WriteLine($"Plant: {Pine.Name} GAL: {Pine.GalPerWeek} GPM: {Pine.GalPerMonth()} GPY: {Pine.GalPerYear()}");
+var plant =  new Plant()
+{
+    PlantType = 1,
+    Name = "Test Plant",
+    GalsPerWeek = 25,
+    Quantity = 1,
+    EmittersPerPlant = 3,
+    EmitterGPH = 3,
+    ZoneId = 1,
+};
+_context.Add(plant);
+_context.SaveChanges();

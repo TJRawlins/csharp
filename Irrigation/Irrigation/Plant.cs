@@ -6,19 +6,21 @@ using System.Threading.Tasks;
 
 namespace Irrigation
 {
-    internal class Plant
+    public class Plant
     {
-        public string Name { get; set; }
-        public int GalPerWeek { get; set; }
-        public int Runtime { get; set; }
 
-        public int GalPerMonth() { return GalPerWeek * 4; }
-        public int GalPerYear() { return GalPerWeek * 52; }
+        public int Id { get; set; }
+        public byte PlantType { get; set; }
+        public string? Name { get; set; }
+        public int GalsPerWeek { get; set; }
+        public int Quantity { get; set; }
+        public int EmittersPerPlant { get; set; }
+        public int EmitterGPH { get; set; }
+        public int ZoneId { get; set; }
 
-        public Plant(string Name, int GalPerWeek)
+        public override string ToString()
         {
-            this.Name = Name;
-            this.GalPerWeek = GalPerWeek;
+            return $"{Id} | {PlantType} | {Name} | {GalsPerWeek} | {Quantity} | {EmittersPerPlant} | {EmitterGPH} | {ZoneId}";
         }
     }
 }
