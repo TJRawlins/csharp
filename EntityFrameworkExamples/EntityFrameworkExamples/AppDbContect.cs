@@ -15,16 +15,13 @@ namespace EntityFrameworkExamples
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderLine> OrderLines { get; set; }
 
-        // constructor
+        // constructor - only used in console app
         public AppDbContect() { }
 
-        // pass options to base constructor
-        public AppDbContect(DbContextOptions<AppDbContect> options) : base(options) 
-        { 
+        // pass options to base constructor - MUST HAVE ALWAYS
+        public AppDbContect(DbContextOptions<AppDbContect> options) : base(options) { }
 
-        }
-
-        // implement connection string
+        // implement connection string - for web apps this goes in a different file
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             var connStr = "server=localhost\\sqlexpress;" +

@@ -82,5 +82,5 @@ var custOrders = from c in _context.Customers
                      ol.Price,
                      LineTotal = ol.Quantity * ol.Price
                  };
-custOrders.ToList().ForEach(c => Console.WriteLine($"{c.OrderDate} | {c.Description} | {c.Customer} | {c.Customer} | {c.Product} | {c.Quantity} | {c.Price} | {c.LineTotal}"));
+custOrders.ToList().ForEach(c => Console.WriteLine($"{c.OrderDate} | {c.Description} | {c.Customer} | {c.Product} | {c.Quantity} | {c.Price} | {c.LineTotal}"));
 
