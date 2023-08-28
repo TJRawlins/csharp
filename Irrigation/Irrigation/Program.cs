@@ -74,14 +74,14 @@ Console.WriteLine(_context.Zones.Find(5));
 
 // INSERT
 /*
-var newPlant = new Zone()
+var newZone = new Zone()
 {
     Name = "Zone 5 - Test",
     RuntimeHours = 1,
     RuntimeMinutes = 45,
     RuntimesPerWeek = 3,
 };
-_context.Zones.Add(newPlant);
+_context.Zones.Add(newZone);
 _context.SaveChanges();
 */
 
