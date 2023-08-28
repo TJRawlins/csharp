@@ -59,10 +59,12 @@ _context.SaveChanges(); // this can be done just once, at the end of all your EF
 
 
 /*-------------------------------- ORDERS ------------------------ */
-
+/*
 // GET ALL
 var orders = _context.Orders.ToList();
 orders.ForEach(o => Console.WriteLine(o));
+*/
+
 
 // JOIN - Customers + Orders + OrderLines
 var custOrders = from c in _context.Customers
@@ -81,5 +83,4 @@ var custOrders = from c in _context.Customers
                      LineTotal = ol.Quantity * ol.Price
                  };
 custOrders.ToList().ForEach(c => Console.WriteLine($"{c.OrderDate} | {c.Description} | {c.Customer} | {c.Customer} | {c.Product} | {c.Quantity} | {c.Price} | {c.LineTotal}"));
-
 

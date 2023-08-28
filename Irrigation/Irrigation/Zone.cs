@@ -14,9 +14,17 @@ namespace Irrigation
         public int RuntimeMinutes { get; set; }
         public int RuntimesPerWeek { get; set; }
 
+        public int TotalRuntimeMunites()
+        {
+            var total = (RuntimeHours * 60) + RuntimeMinutes;
+            return total;
+        }
+
+
+
         public override string ToString()
         {
-            return $"{Id} | {Name} | {RuntimeHours} | {RuntimeMinutes} | {RuntimesPerWeek}";
+            return $"{Id} | {Name} | {RuntimeHours} | {RuntimeMinutes} | {TotalRuntimeMunites()} | {RuntimesPerWeek}";
         }
     }
 }

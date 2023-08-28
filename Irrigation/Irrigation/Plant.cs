@@ -10,12 +10,12 @@ namespace Irrigation
     {
 
         public int Id { get; set; }
-        public byte PlantType { get; set; }
+        public bool PlantType { get; set; }
         public string? Name { get; set; }
-        public int GalsPerWeek { get; set; }
+        public double GalsPerWeek { get; set; }
         public int Quantity { get; set; }
         public int EmittersPerPlant { get; set; }
-        public int EmitterGPH { get; set; }
+        public double EmitterGPH { get; set; }
         public int ZoneId { get; set; }
 
         public override string ToString()
