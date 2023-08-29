@@ -26,7 +26,6 @@ var orders = _context.Orders.
                             .ThenInclude(x => x.Item)
                             .Where(x => x.Id == 1);
 
-var x = 0;
 
 /*
 foreach (var item in orders.ToList() )
