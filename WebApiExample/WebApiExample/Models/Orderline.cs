@@ -16,7 +16,6 @@ namespace WebApiExample.Models
         public decimal Price { get; set; }
 
         public int OrderId { get; set; }
-        [JsonIgnore]
         public virtual Order? Order { get; set; }
     }
 }
