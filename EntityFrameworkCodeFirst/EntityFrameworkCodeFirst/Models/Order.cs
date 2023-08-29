@@ -26,6 +26,8 @@ namespace EntityFrameworkCodeFirst.Models
         // must have a virtual instance of the Customer table to match the foreign key to the primary key
         public virtual Customer? Customer { get; set; } = null;
 
+        public virtual ICollection<Orderline> Orderlines { get; set; }
+
 
     }
 }
