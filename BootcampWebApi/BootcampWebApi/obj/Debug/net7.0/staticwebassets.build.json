@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D6M6hy2UGR8GMLuUkvJZ3lns5NIHiNZYK8SDr4fQbE0=",
+  "Source": "BootcampWebApi",
+  "BasePath": "_content/BootcampWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
