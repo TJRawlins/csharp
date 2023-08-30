@@ -17,9 +17,8 @@ namespace WebApiExample.Models
         public string Status { get; set; } = "NEW";
 
         public int CustomerId { get; set; }
-
         public virtual Customer? Customer { get; set; } = null;
-        [JsonIgnore]
+
         public virtual List<Orderline>? Orderlines { get; set; }
     }
 }

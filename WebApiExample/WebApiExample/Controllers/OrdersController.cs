@@ -21,6 +21,8 @@ namespace WebApiExample.Controllers
             _context = context;
         }
 
+    
+
         // GET: api/Orders
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
@@ -44,7 +46,8 @@ namespace WebApiExample.Controllers
             // this allows you to also get the customer linked to the order
             var order = await _context.Orders
                                   .Include(x => x.Customer)
-                                  .Include(x => x.Orderlines)
+                                  .Include(x => x.Orderlines)!
+                                  .ThenInclude(x => x.Item)
                                   .SingleOrDefaultAsync(x => x.Id == id);
 
             if (order == null)
@@ -55,6 +58,24 @@ namespace WebApiExample.Controllers
             return order;
         }
 
+        // GET: api/Orders/ok
+        [HttpGet("ok")]
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrdersOk()
+        { 
+            if (_context.Orders == null)
+            {
+                return NotFound();
+            }
+
+            return await _context.Orders
+                                    .Where(x => x.Status == "OK")
+                                    .Include(x => x.Customer)
+                                    .ToListAsync();
+        }
+
+
+        /* PUT */
+        #region
         // PUT: api/Orders/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -85,6 +106,31 @@ namespace WebApiExample.Controllers
 
             return NoContent();
         }
+
+        // PUT: api/Orders/ok/5
+        [HttpPut("ok/{id}")]
+        public async Task<IActionResult> SetOrderStatusToOk(int id, Order order)
+        {
+            order.Status = "OK";
+            return await PutOrder(id, order);
+        }
+
+        // PUT: api/Orders/bo/5
+        [HttpPut("bo/{id}")]
+        public async Task<IActionResult> SetOrderStatusToBo(int id, Order order)
+        {
+            order.Status = "BACKORDER";
+            return await PutOrder(id, order);
+        }
+
+        // PUT: api/Orders/closed/5
+        [HttpPut("closed/{id}")]
+        public async Task<IActionResult> SetOrderStatusToClose(int id, Order order)
+        {
+            order.Status = "CLOSED";
+            return await PutOrder(id, order);
+        }
+        #endregion
 
         // POST: api/Orders
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

@@ -12,8 +12,8 @@ using WebApiExample.Data;
 namespace WebApiExample.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230829183207_Added Order")]
-    partial class AddedOrder
+    [Migration("20230830134803_added employee")]
+    partial class addedemployee
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,6 +54,53 @@ namespace WebApiExample.Migrations
                     b.ToTable("Customers");
                 });
 
+            modelBuilder.Entity("WebApiExample.Models.Employee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Active")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("WebApiExample.Models.Item", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<decimal>("Rice")
+                        .HasColumnType("decimal(7,2)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Items");
+                });
+
             modelBuilder.Entity("WebApiExample.Models.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -88,6 +135,35 @@ namespace WebApiExample.Migrations
                     b.ToTable("Orders");
                 });
 
+            modelBuilder.Entity("WebApiExample.Models.Orderline", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("ItemId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(11,2)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ItemId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("Orderlines");
+                });
+
             modelBuilder.Entity("WebApiExample.Models.Order", b =>
                 {
                     b.HasOne("WebApiExample.Models.Customer", "Customer")
@@ -97,6 +173,28 @@ namespace WebApiExample.Migrations
                         .IsRequired();
 
                     b.Navigation("Customer");
+                });
+
+            modelBuilder.Entity("WebApiExample.Models.Orderline", b =>
+                {
+                    b.HasOne("WebApiExample.Models.Item", "Item")
+                        .WithMany()
+                        .HasForeignKey("ItemId");
+
+                    b.HasOne("WebApiExample.Models.Order", "Order")
+                        .WithMany("Orderlines")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Item");
+
+                    b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("WebApiExample.Models.Order", b =>
+                {
+                    b.Navigation("Orderlines");
                 });
 #pragma warning restore 612, 618
         }

@@ -14,8 +14,11 @@ namespace WebApiExample.Data
         {
         }
 
+        // default adds the default value into the column instead of null
         public DbSet<Customer> Customers { get; set; } = default!;
         public DbSet<Order> Orders { get; set; } = default!;
         public DbSet<Orderline> Orderlines { get; set; } = default!;
+        public DbSet<Item> Items { get; set; } = default!;
+        public DbSet<Employee> Employees { get; set; } = default!;
     }
 }

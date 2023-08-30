@@ -21,6 +21,26 @@ namespace WebApiExample.Controllers
             _context = context;
         }
 
+        private async Task RecalculateOrderTotal(int id)
+        {   
+            // id is the orderline.orderId
+            // get orderline totals
+            var total = (from o in _context.Orders
+                         join ol in _context.Orderlines
+                         on o.Id equals ol.OrderId
+                         join i in _context.Items
+                         on ol.ItemId equals i.Id
+                         where o.Id == id
+                         select new
+                         {
+                             LineTotal = ol.Quantity * i.Price
+                         }).Sum(x => x.LineTotal); // get the grand total of all lines
+            var order = await _context.Orders.FindAsync(id);
+            order!.Total = total;
+            await _context.SaveChangesAsync();
+            // this will return to whatever calls this method
+        }
+
         // GET: api/Orderlines
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Orderline>>> GetOrderlines()
@@ -65,6 +85,7 @@ namespace WebApiExample.Controllers
             try
             {
                 await _context.SaveChangesAsync();
+                await RecalculateOrderTotal(orderline.OrderId);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -92,6 +113,8 @@ namespace WebApiExample.Controllers
           }
             _context.Orderlines.Add(orderline);
             await _context.SaveChangesAsync();
+            // MUST got after the save changes
+            await RecalculateOrderTotal(orderline.OrderId);
 
             return CreatedAtAction("GetOrderline", new { id = orderline.Id }, orderline);
         }
@@ -110,8 +133,11 @@ namespace WebApiExample.Controllers
                 return NotFound();
             }
 
+            // save order id before it gets deleted
+            var orderId = orderline.OrderId; 
             _context.Orderlines.Remove(orderline);
             await _context.SaveChangesAsync();
+            await RecalculateOrderTotal(orderId);
 
             return NoContent();
         }

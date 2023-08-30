@@ -12,8 +12,8 @@ using WebApiExample.Data;
 namespace WebApiExample.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230829192305_Added Orderline")]
-    partial class AddedOrderline
+    [Migration("20230830133021_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,6 +52,27 @@ namespace WebApiExample.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("WebApiExample.Models.Item", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<decimal>("Rice")
+                        .HasColumnType("decimal(7,2)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Item");
                 });
 
             modelBuilder.Entity("WebApiExample.Models.Order", b =>
@@ -96,10 +117,8 @@ namespace WebApiExample.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasMaxLength(80)
-                        .HasColumnType("nvarchar(80)");
+                    b.Property<int?>("ItemId")
+                        .HasColumnType("int");
 
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
@@ -107,15 +126,12 @@ namespace WebApiExample.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(11,2)");
 
-                    b.Property<string>("Product")
-                        .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
-
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ItemId");
 
                     b.HasIndex("OrderId");
 
@@ -135,13 +151,24 @@ namespace WebApiExample.Migrations
 
             modelBuilder.Entity("WebApiExample.Models.Orderline", b =>
                 {
-                    b.HasOne("WebApiExample.Models.Order", "Order")
+                    b.HasOne("WebApiExample.Models.Item", "Item")
                         .WithMany()
+                        .HasForeignKey("ItemId");
+
+                    b.HasOne("WebApiExample.Models.Order", "Order")
+                        .WithMany("Orderlines")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Item");
+
                     b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("WebApiExample.Models.Order", b =>
+                {
+                    b.Navigation("Orderlines");
                 });
 #pragma warning restore 612, 618
         }
