@@ -54,6 +54,31 @@ namespace SalesApiRecode.Controllers
             return order;
         }
 
+        // PUT: api/Order/ok/5
+        [HttpPut("ok/{id}")]
+        public async Task<IActionResult> StatusOk(int id, Order order) {
+            order.Status = "OK";
+            return await PutOrder(id, order);
+
+        }
+        
+        // PUT: api/Order/bo/5
+        [HttpPut("ok/{id}")]
+        public async Task<IActionResult> StatusBo(int id, Order order) {
+            order.Status = "BACKORDER";
+            return await PutOrder(id, order);
+
+        }
+
+        // PUT: api/Order/Closed/5
+        [HttpPut("ok/{id}")]
+        public async Task<IActionResult> StatusClosed(int id, Order order)
+        {
+            order.Status = "CLOSED";
+            return await PutOrder(id, order);
+
+        }
+
         // PUT: api/Orders/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
