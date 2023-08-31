@@ -43,7 +43,7 @@ namespace WebApiExample.Controllers
           {
               return NotFound();
           }
-            // this allows you to also get the customer linked to the order
+            // this allows you to also get the customer, orderlines, and item linked to the order
             var order = await _context.Orders
                                   .Include(x => x.Customer)
                                   .Include(x => x.Orderlines)!

@@ -33,7 +33,7 @@ namespace WebApiExample.Controllers
                          where o.Id == id
                          select new
                          {
-                             LineTotal = ol.Quantity * i.Price
+                             LineTotal = i.Price * ol.Quantity
                          }).Sum(x => x.LineTotal); // get the grand total of all lines
             var order = await _context.Orders.FindAsync(id);
             order!.Total = total;
